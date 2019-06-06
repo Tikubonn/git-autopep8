@@ -1,0 +1,5 @@
+build/*
+dist/*
+git_autopep8.egg-info/*
+*.pyc
+
