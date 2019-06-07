@@ -46,11 +46,11 @@ def update(arguments):
 
 def main():
     parser = argparse.ArgumentParser(
-        description=""
+        description="apply PEP8 code style to your codes that add to Git."
     )
     parser.add_argument(
         "arguments",
-        help="provide this arguments to autopep8.",
+        help="arguments are providen to autopep8.",
         nargs=argparse.REMAINDER
     )
     parser.add_argument(
