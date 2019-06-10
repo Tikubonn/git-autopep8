@@ -21,7 +21,7 @@ def get_hash(arguments):
 def list_modified_python_file(arguments):
     hash = get_hash(arguments)
     process = subprocess.run(
-        ("git", "diff-index", "--name-status", "--full-index", hash),
+        ("git", "diff-index", "--cached", "--name-status", "--full-index", hash),
         stdout=subprocess.PIPE,
         check=True
     )

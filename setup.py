@@ -6,7 +6,7 @@ with open("README.md", "r") as stream:
 
 setup(
     name="git-autopep8",
-    version="1.0.0",
+    version="1.0.1",
     description="this package add a command that apply PEP8 code style to your codes that add to Git.",
     long_description=long_description,
     long_description_content_type="text/markdown",
